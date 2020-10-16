@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Kuaför Randevu</title>
+</head>
+<body>
+    <!-- HOME SECTİON -->
+    <header id="homeSection">
+        <div class="overlay">
+            <div class="container">
+                <!-- NAVBAR -->
+                <nav class="navbar navbar-expand-md navbar navbar-dark bg-dark fixed-top">
+                    <div class="container">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><i class="fa fa-cut"></i> Kuaför Randevu</a>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#homeSection">Anasayfa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#featuresSection">Hakkımızda</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#caseStudySection">İletişim</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#contactSection">Giriş</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+               <div class="row mainText  py-5 ">
+                    <div class="col my-auto">
+                        <h1 class="display-5 text-white"><span>Kuaför Randevu</span> kendine en uygun kuaförü keşfet!</h1>
+                        <h3 class="text-muted ">Yakınında bir kuaför bul ve randevunu al.</h3>
+                        <!-- Search Stick -->
+                        <form id="searchStick" class="form-row my-5 p-2">
+                            <div class="form-group col-md-5 my-1">
+                                <div class="input-group input-group-lg">
+                                    <input type="text" class="form-control" id="kuaforIsım" placeholder="Kuaför ismi">
+                                </div>
+                            </div>
+                            <div class="form-group col-md-5 my-1">
+                                <div class="input-group input-group-lg ">
+                                    <span class="input-group-addon mx-3 my-auto">
+                                        <i class="fa fa-map-marker fa-2x "></i>
+                                    </span>
+                                    <input class="form-control" id="kuaforSehir" list="city" name="city" placeholder="Şehir">
+                                    <datalist id="city">
+                                        <option value="İstanbul">
+                                        <option value="Ankara">
+                                        <option value="İzmir">
+                                        <option value="Denizli">
+                                        <option value="Manisa">
+                                    </datalist>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-2 my-1">
+                                <button type="button" class="btn btn-primary btn-lg "><i class="fa fa-search"></i> Ara</button>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- FEATURES SECTİON -->
+    <section id="featuresSection" class="pt-5">
+        <div class="container">
+            <h1 class="text-center">Nasıl Kullanılır?</h1>
+            <div class="row mt-5">
+
+                <div class="col md-4 text-center">
+                    <div class="feature">
+                        <div class="features-top">
+                            <i class="fa fa-star"></i>
+                            <h3 class="mt-3">KUAFÖR SEÇ</h3>
+                        </div>
+                        <p>Bulunduğun bölgedeki kuaförler arasından sana en çok uyanı seç.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature">
+                        <div class="features-top">
+                            <i class="fa fa-calendar"></i>
+                            <h3 class="mt-3">RANDEVU AL</h3>
+                        </div>
+                        <p>Kuaförünüzü ve alacağınız hizmeti seçtikten sonra programınıza uyan bir zaman aralığı seçin. koltuğunuzu rezerve etmek için kartınız ile güvenli bir şekilde ödeme yapın.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature">
+                        <div class="features-top">
+                            <i class="fa fa-check-circle"></i>
+                            <h3 class="mt-3">GİT ve KESTİR</h3>
+                        </div>
+                        <p>Randevu saatiniz geldiğinde kuaförünüzü gidin, kuyruğu atlayıp koltuğunuza oturun ve sıra beklemeden koltuğa oturmanın rahatlığını yaşayın.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--DOWNLOAD SECTİON-->
+    <section id="downloadSection">
+        <div class="container ">
+            <div class="row py-4">
+                <div class="col-md-3 ">
+                    <div class="row ">
+                        <img class="mx-auto" src="images/samsung-website.png">
+                    </div>
+                    <div class="row ">
+                        <img class="mx-auto my-3" src="images/google-play-badge.png">
+                    </div>
+                </div>
+                <div class="col-md-5 text-center my-auto mx-auto">
+                    <h1 class="mt-3">Uygulamamızı İndirin!</h1>
+
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor tincidunt magna nec luctus. Aliquam suscipit arcu erat, id vehicula eros commodo convallis. Nam sit amet sem sit amet lorem placerat bibendum eget id risus. Vestibulum mattis ullamcorper tincidunt. Quisque dictum nunc gravida mauris pharetra consectetur.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="row ">
+                        <img class="mx-auto" src="images/iphone-website.png">
+                    </div>
+                    <div class="row ">
+                        <img class="mx-auto my-3" src="images/app-store-badge.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TEAM SECTİON -->
+    <section id="teamSection">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-block">
+                            <img src="images/Tony_Stark.jpg" class="img-fluit rounded-circle my-4">
+                            <h3>Tony Stark</h3>
+                            <h5 class="text-muted">CEO</h5>
+                            <p class="text-muted my-3">Lorem ipsum dolor sit amet, consectetur adipiscing. Praesent ultrices velit feugiat magna blandit facilisis.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-block">
+                            <img src="images/ryan-reynolds.jpg" class="img-fluit rounded-circle my-4">
+                            <h3>Ryan Ronalds</h3>
+                            <h5 class="text-muted">CFO</h5>
+                            <p class="text-muted my-3">Lorem ipsum dolor sit amet, consectetur adipiscing. Praesent ultrices velit feugiat magna blandit facilisis.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-block">
+                            <img src="images/Jason_Statham.jpg" class="img-fluit rounded-circle my-4">
+                            <h3>Jason Statham</h3>
+                            <h5 class="text-muted">CTO</h5>
+                            <p class="text-muted my-3">Lorem ipsum dolor sit amet, consectetur adipiscing. Praesent ultrices velit feugiat magna blandit facilisis.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- CONTACT SECTİON -->
+    <section id="contactSection" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>CONTACT US</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus.</p>
+                    <h3>Adress</h3>
+                    <p>Çamlaraltı/Denizli</p>
+                    <h3>E-mail</h3>
+                    <p>example@gmail.com</p>
+                    <h3>Phone</h3>
+                    <p>543 678 2354</p>
+                    <div class="d-flex flex-row justify-content-right">
+                        <div class="p-2">
+                            <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+                        </div>
+                        <div class="p-2">
+                            <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                        </div>
+                        <div class="p-2">
+                            <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                        </div>
+                        <div class="p-2">
+                            <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon ">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                                <input class="form-control" type="text" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon ">
+                                    <i class="fa fa-envelope"></i>
+                                </span>
+                                <input class="form-control" type="email" placeholder="EMail">
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon  ">
+                                    <i class="fa fa-pencil "></i>
+                                </span>
+                                <textarea class="form-control" placeholder="Message" rows="6"></textarea>
+                            </div>
+                        </div>
+                        <input type="submit" value="SUBMIT" class="btn btn-primary btn-block">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER SECTİON -->
+    <footer id="main-footer" class="py-2">
+        <div class="container-fluid">
+            <div class="row text-center ">
+                <div class="col-md-6 mx-auto ">
+                    <p class="lead">No Copyright &copy; 2018 Kuaför Randevu</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="/js/jquery-3.3.1.slim.js"></script>
+<script src="/js/popper.js"></script>
+<script src="/js/bootstrap.js"></script>
